@@ -1,0 +1,101 @@
+/*p{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: auto;
+    display: block;
+
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    display: block;
+    background-color: pink;
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 122, 144);
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+*/
+
+/*pallete
+
+purple: #4E4C67
+rose: #985F6F
+pink: #B4869F
+violet:#A6B1E1
+lavender: #DCD6F7
+
+*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #4E4C67;
+    color: #DCD6F7;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+header{
+    background-color: #985F6F;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #DCD6F7;
+    display: block;
+}
+
+.work{
+    background: #DCD6F7;
+    color:#4E4C67;
+}
+
+.education{
+    background: #A6B1E1;
+    color:#4E4C67;
+}
+
+footer{
+    background: #B4869F;
+    color: #DCD6F7;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+h1{
+    font-size: 80px;
+    text-shadow: 1px 1px black;
+}
+
+h2{ 
+    margin: 0;
+}
